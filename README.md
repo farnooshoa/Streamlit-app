@@ -67,3 +67,18 @@ python scripts/enrich_investors.py
 - Enable CSV export of filtered results  
 - Include investor profile pages with links and fund summaries
 
+## 🔁 Periodic Update Script
+
+The `scripts/update_from_api.py` script simulates fetching new investor data from an external source (e.g., OpenVC API or a firm’s public CSV).
+
+### How It Works
+
+- Fetches updates from a dummy local file (you can replace with a real API call)
+- Merges new or updated investor rows into the master dataset
+- Saves a timestamped backup of the original
+- Outputs an updated dataset (`investor_data_updated.csv`)
+
+### To Run It
+
+```bash
+python scripts/update_from_api.py
