@@ -53,6 +53,3 @@ Make sure the CSV file (`biotech_investors_100.csv`) is in the same directory.
 - Enable CSV export of filtered results  
 - Include investor profile pages with links and fund summaries
 
-## About Me
-
-I am a data specialist with a background in biotechnology and a strong interest in building tools that enable better decision-making in the life sciences industry. This project demonstrates my ability to combine domain knowledge with practical programming to solve targeted problems in biotech data workflows.
