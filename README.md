@@ -44,6 +44,20 @@ The dataset includes 100 simulated biotech investors and the following fields:
    ```
 
 Make sure the CSV file (`biotech_investors_100.csv`) is in the same directory.
+## Data Enrichment Script
+
+This project includes a scripted pipeline to detect and fill missing fields in the investor dataset.
+
+### How It Works
+
+- Detects missing values in columns like `Fund Size (M USD)` and `Modality Focus`
+- Fills them using simulated enrichment logic (e.g., placeholder values)
+- Saves both the original and enriched files for comparison
+
+### Run It
+
+```bash
+python scripts/enrich_investors.py
 
 ## Future Improvements
 
